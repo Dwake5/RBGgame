@@ -20,26 +20,24 @@ const updateHighScore = (mode, score) => {
     if (mode == 'easy') {
       if (score > easyMax) {
         document.getElementById("easyScore").innerHTML = score
-        display = 'New highest easy score'
+        display = 'New highest easy score!'
       }
     } else if (mode == 'normal') {
       if (score > normalMax) {
         document.getElementById("mediumScore").innerHTML = score
-        display = 'New highest normal score'
+        display = 'New highest normal score!'
       }
     } else if (mode == 'hard') {
       if (score > hardMax) {
         document.getElementById("hardScore").innerHTML = score
-        display = 'New highest hard score'
+        display = 'New highest hard score!'
+      }
     }
        
     reset()
     scoreReset()
-    messageDisplay.textContent(display)
-
+    messageDisplay.textContent = display
 }
-
-
 
 for (let i = 0; i < modeButtons.length; i++){
   modeButtons[i].addEventListener("click", function(){
