@@ -1,0 +1,100 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+  }
+  
+  .square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 20%;
+  }
+  
+  #container {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  #reset:hover {
+       background: steelblue;
+       color: white;
+  }
+
+
+  h1 {
+    text-align: center;
+    line-height: 1.1;
+    font-weight: normal;
+    color: white;
+    background: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+  
+  #colorDisplay {
+    font-size: 200%;
+  }
+  
+  #message {
+    display: inline-block;
+    width: 20%;
+  }
+  
+  #gap {
+    display: inline-block;
+    width: 10%;
+  }
+  
+  #stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+  }
+  
+  #stripe2 {
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+  }
+  
+  #stripe2 span {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    margin-top: 20px;
+  }
+  
+  #high {
+    margin-right:10px;
+  }
+  
+  #stripe2 .score {
+    margin-right: 30px;
+  }
+  
+  .selected {
+    color: white;
+    background: steelblue;
+  }
+  
+  button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: bold;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s; 
+    -moz-transition: all 0.3s; 
+  }
