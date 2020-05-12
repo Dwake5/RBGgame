@@ -19,14 +19,17 @@ const updateHighScore = (mode, score) => {
     if (mode == 'easy') {
       if (score > easyMax) {
         document.getElementById("easyScore").innerHTML = score
+        messageDisplay.textContent('New highest easy score')
       }
     } else if (mode == 'normal') {
       if (score > normalMax) {
         document.getElementById("mediumScore").innerHTML = score
+        messageDisplay.textContent('New highest normal score')
       }
     } else if (mode == 'hard') {
       if (score > hardMax) {
         document.getElementById("hardScore").innerHTML = score
+        messageDisplay.textContent('New highesthard score')
       }
     }
        
